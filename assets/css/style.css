@@ -54,12 +54,6 @@ body {
     margin-top: 40px;
 }
 
-@media screen and (min-width: 768px) {
-    img.customimg {
-      float: left;
-      margin: 1.2rem;
-    }
-  }
 
   .btn-custom {
     color: #fff;
@@ -79,4 +73,11 @@ a.textover {
 }
 .row-clear {
     margin-top: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    img.customimg {
+      float: left;
+      margin: 1.2rem;
+    }
 }
