@@ -1,53 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Srichaitanya's page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
- <!--   <script src="main.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Header  contains Name & other tabs -->
-    <header class="clearfix">
-        <div class="name">
-            <h1>Srichaitanya Vanapalli</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+
+                    <span class="navbar-brand">Srichaitanya Vanapalli</span>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">About
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=portfolio.html>Portfolio
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-        <div class="tabs">
-            <a href="index.html">About |</a>
-            <a href="portfolio.html">Portfolio |</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </header>
-    <!-- This section contains all projects with their image & description -->
-    <section>
-        <div class="content">
-            <h1 class="fmt1">Portfolio</h1> 
-            <div class="clearfix">
-                <div class="projects" >
-                        <img class="img1" src="assets/images/portfolio1.jpg">
-                        <a href="#" class="stickit"> Project Lisa-A</a>
-                </div>
-                <div class="projects" >
-                        <img class="img1" src="assets/images/portfolio2.jpg">
-                        <a href="#" class="stickit"> Project Lisa-B</a>
-                </div>
-                <div class="projects" >
-                        <img class="img1" src="assets/images/portfolio3.jpg">
-                        <a href="#" class="stickit"> Project Lisa-C</a>
-                </div>
-                <div class="projects" >
-                        <img class="img1" src="assets/images/portfolio4.jpg">
-                        <a href="#" class="stickit"> Project Lisa-D</a>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h5 class="fmt1">Portfolios</h5>
+                <div class="row">
+                    <div class="col-sm row-clear">
+                        <img src="assets/images/portfolio1.jpg" alt="Image1">
+                        <a href="#" class="textover"> Project Lisa-A</a>
+                    </div>
+                    <div class="col-sm row-clear">
+                        <img src="assets/images/portfolio2.jpg" alt="Image2">
+                        <a href="#" class="textover"> Project Lisa-B</a>
+                    </div>
+                    <div class="col-sm row-clear">
+                        <img src="assets/images/portfolio3.jpg" alt="Image3">
+                        <a href="#" class="textover"> Project Lisa-C</a>
+                    </div>
+                    <div class="col-sm row-clear">
+                        <img src="assets/images/portfolio4.jpg" alt="Image4">
+                        <a href="#" class="textover"> Project Lisa-D</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Footer section - Copyright -->
-    <footer>
-        <p>Copyright &#9400</p>
-    </footer>
+        <!-- Footer section - Copyright -->
+        <footer class="fmtfooter">
+            <p>Copyright &#9400</p>
+        </footer>
+    </div>
 </body>
-</html> 
+
+</html>
